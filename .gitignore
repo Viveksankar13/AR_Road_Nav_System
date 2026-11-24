@@ -1,0 +1,60 @@
+# Secrets & local credentials
+*.env
+.env.*
+*.keystore
+*.jks
+*.p12
+*.pem
+*.key
+key.properties
+local.properties
+google-services.json
+GoogleService-Info.plist
+secrets.*
+credentials.*
+
+# OS / Editor / General
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+__pycache__/
+*.py[cod]
+node_modules/
+not-required/
+
+# Backend: virtualenvs, datasets, training runs, and large model artifacts
+backend/.venv/
+backend/dataset/
+backend/raw_data/
+backend/processed_data/
+backend/runs/
+backend/Pothole Detection.yolov11/
+backend/best_saved_model/
+backend/*.pt
+backend/*.onnx
+backend/*.tflite
+backend/*.npy
+backend/pothole_reports.json
+backend/sensor_logs.csv
+backend/ar_road_nav_system.code-workspace
+
+# Frontend: archives, build outputs, IDE files, and non-code docs
+frontend/flutter_app.zip
+frontend/flutter_app/build/
+frontend/flutter_app/.dart_tool/
+frontend/flutter_app/.flutter-plugins
+frontend/flutter_app/.flutter-plugins-dependencies
+frontend/flutter_app/*.iml
+frontend/flutter_app/*.docx
+frontend/flutter_app/*.pdf
+frontend/flutter_app/*.pptx
+frontend/flutter_app/~$*
+frontend/flutter_app/architecture_diagram.png
+frontend/flutter_app/data_flow_diagram.png
+frontend/flutter_app/Picture1.png
+frontend/flutter_app/Picture2.png
+frontend/flutter_app/android/.gradle/
+frontend/flutter_app/android/app/debug/
+frontend/flutter_app/android/app/profile/
+frontend/flutter_app/android/app/release/

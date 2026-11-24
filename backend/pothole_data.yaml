@@ -1,0 +1,9 @@
+# YOLOv11 Dataset Configuration for Pothole Detection
+# Auto-generated from Roboflow export
+
+path: c:/Users/ASUS/.gemini/antigravity/scratch/ar_road_nav_system/backend/dataset
+train: train/images
+val: valid/images
+
+nc: 1
+names: ['pothole']
